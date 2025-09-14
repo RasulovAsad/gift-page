@@ -23,9 +23,9 @@ const CONFIG = {
     "С тобой хочется мечтать и действовать",
   ],
   gallery: [
-    { src: "src/img/p1.jpeg", caption: "Наш лучший день" },
-    { src: "src/img/p2.jpeg", caption: "Горы еее" },
-    { src: "src/img/p3.jpeg", caption: "Мне очень нравится эта фотка" },
+    { src: "/gallery/p1.jpeg", caption: "Наш лучший день" },
+    { src: "/gallery/p2.jpeg", caption: "Горы еее" },
+    { src: "/gallery/p3.jpeg", caption: "Мне очень нравится эта фотка" },
   ],
   // базовые цвета остаются для справки, но градиенты теперь захардкожены в JSX, чтобы Tailwind не вычищал их
   colors: {
